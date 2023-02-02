@@ -1,0 +1,49 @@
+
+body{
+    height: 100vh;
+}
+header{
+    height: 20%;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: rgb(128, 128, 128, 0.3);
+    justify-content: center;
+}
+main{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    justify-content: space-evenly;
+}
+h3{
+    text-align: center;
+    /* border: 2px solid blue; */
+    height: 10%;
+    margin: 0;
+}
+#rightArticle{
+    border: 2px solid black;
+    height: 90%;
+    width: 55%;
+}
+#leftArticle{
+    border: 2px solid black;
+    height: 90%;
+    width: 40%;
+}
+#cardsContainer{
+    /* border: 2px solid red; */
+    height: 90%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+
+}   
+
+.card{
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
